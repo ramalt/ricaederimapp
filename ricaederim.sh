@@ -13,7 +13,7 @@ send_notification() {
     local title=$1
     local message=$2
     notify-send "$title" "$message" -i ~/painman.jpg
-    echo "Notification sent: $title - $message"
+    echo "Notification: $title - $message"
 }
 
 
